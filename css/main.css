@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    font-size: 1.25rem;
+}
+
+#head {
+    background-color: #062e51;
+}
+
+#navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#baslik {
+    font-size: 1.75rem;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name {
+    text-align: center;
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name p {
+    opacity: .6;
+    font-style: italic;
+}
+
+#home a {
+    margin-top: 1.25rem;
+    background-color: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    border: 0.5px solid #336ea2;
+}
+
+#home a:hover {
+    color: #336ea2;
+    background-color: white;
+    border: 0.5px solid #336ea2;
+}
+
+#baslik-orta {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#training {
+    background-color: #062e51;
+    color: white;
+    padding: 1rem;
+}
+
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#training .items .item:hover {
+    color: red;
+    opacity: .6;
+}
+
+.img {
+    width: 150px;
+    height: 80px;
+}
+
+#courses {
+    color: 333;
+    padding: 1rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course .course-img {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .course-img img {
+    border-radius: 5px
+}
+
+.courses .course .course-img span {
+    background-color: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.courses .course .course-info .title {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+}
+
+.courses .course .course-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: .6;
+}
+
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: .6;
+}
+
+.courses .course .course-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: .6;
+}
+
+.contact {
+    background-color: #062e51;
+    color: white;
+    padding: 1rem;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+.contact .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.contact .contact-form ul li a:hover {
+    opacity: .8;
+}
+
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    background-color: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    border: 0.5px solid #336ea2;
+    width: 100%;
+}
+
+.btn:hover {
+    color: #336ea2;
+    background-color: white;
+    border: 0.5px solid #336ea2;
+}
