@@ -97,7 +97,7 @@ a {
     border: 0.5px solid #336ea2;
 }
 
-#baslik-orta {
+.baslik-orta {
     text-align: center;
     font-size: 1.5rem;
 }
